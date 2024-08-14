@@ -295,7 +295,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000000;
+  background-color: #ffffff;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -311,7 +311,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -977,6 +977,13 @@ a:focus {
   position: relative;
 }
 
+@media (max-width: 992px) {
+  .contact_section .row {
+    gap: 15px;
+  }
+}
+
+
 .contact_section .heading_container {
   margin-bottom: 25px;
 }
@@ -1065,6 +1072,10 @@ a:focus {
   background-color: #252525;
   color: #ffffff;
   padding: 45px 0;
+}
+
+.imgen-contacto {
+  width: -webkit-fill-available;
 }
 
 .info_section .contact_nav {
